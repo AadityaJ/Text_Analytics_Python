@@ -1,0 +1,7 @@
+install.packages(c('tm','wordcloud'))
+library('tm')
+library('wordcloud')
+text<-Corpus(DirSource("C:/Users/MAHE/Google Drive/Projects/Text Analytics/Result/text"))
+text <- tm_map(text, removeWords, stopwords("english"))
+text <- tm_map(text, stemDocument)
+wordcloud(text, scale=c(5,0.5), max.words=100, random.order=FALSE, rot.per=0.35, use.r.layout=FALSE, colors=brewer.pal(8, "Dark2"))

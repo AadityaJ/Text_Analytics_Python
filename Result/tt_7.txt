@@ -1,0 +1,200 @@
+'door'
+219
+ 'hand'
+219
+ 'i\x92m'
+228
+ 'never'
+230
+ 'away'
+231
+ 'other'
+237
+ 'snape'
+238
+ 'will'
+241
+ 'only'
+244
+ 'harry\x92s'
+245
+ 'after'
+251
+ 'little'
+251
+ 'room'
+251
+ 'than'
+253
+ 'thought'
+253
+ 'off'
+254
+ 'face'
+255
+ 'time'
+257
+ 'before'
+262
+ 'seemed'
+263
+ 'voice'
+267
+ 'get'
+268
+ 'saw'
+269
+ 'see'
+270
+ 'knew'
+272
+ 'got'
+273
+ 'asked'
+275
+ 'death'
+281
+ 'just'
+295
+ 'don\x92t'
+309
+ 'which'
+314
+ 'think'
+321
+ 'through'
+322
+ 'eyes'
+325
+ 'again'
+330
+ 'it\x92s'
+331
+ 'voldemort'
+332
+ 'where'
+337
+ 'still'
+343
+ 'down'
+344
+ 'them'
+346
+ 'your'
+347
+ 'around'
+351
+ 'more'
+351
+ 'when'
+352
+ 'about'
+353
+ 'how'
+360
+ 'me'
+371
+ 'are'
+379
+ 'my'
+388
+ 'an'
+394
+ 'now'
+399
+ 'no'
+403
+ 'over'
+405
+ 'one'
+410
+ 'do'
+412
+ 'know'
+422
+ 'dumbledore'
+423
+ 'looked'
+425
+ 'by'
+439
+ 'like'
+448
+ 'would'
+453
+ 'their'
+466
+ 'this'
+473
+ 'then'
+478
+ 'did'
+496
+ 'if'
+496
+ 'back'
+506
+ 'who'
+517
+ 'so'
+525
+ 'wand'
+534
+ 'him'
+576
+ 'been'
+584
+ 'up'
+634
+ 'could'
+643
+ 'there'
+644
+ 'into'
+656
+ 'out'
+715
+ 'what'
+726
+ '\x94'
+738
+ 'be'
+754
+ 'were'
+756
+ 'have'
+803
+ 'from'
+842
+ 'she'
+951
+ 'hermione'
+1005
+ 'ron'
+1019
+ 'with'
+1134
+ 'they'
+1135
+ 'but'
+1190
+ 'at'
+1412
+ 'as'
+1428
+ 'i'
+1830
+ 'said'
+1925
+ 'you'
+1930
+ 'had'
+1998
+ 'it'
+2465
+ 'his'
+2619
+ 'harry'
+2668
+ 'was'
+2746

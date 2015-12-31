@@ -1,0 +1,84 @@
+BOOK 1 ::
+___________________________________
+Harry :: 1175
+Ron :: 400
+Hermione :: 245
+Hagrid :: 309
+Snape :: 137
+Dumbledore :: 129
+Voldemort :: 27
+
+BOOK 2 ::
+___________________________________
+Harry :: 1448
+Ron :: 638
+Hermione :: 266
+Hagrid :: 116
+Snape :: 82
+Dumbledore :: 128
+Voldemort :: 16
+
+BOOK 3 ::
+___________________________________
+Harry :: 1740
+Ron :: 685
+Hermione :: 596
+Hagrid :: 175
+Snape :: 197
+Dumbledore :: 134
+Voldemort :: 30
+
+
+BOOK 4 ::
+___________________________________
+Harry :: 2783
+Ron :: 944
+Hermione :: 761
+Hagrid :: 279
+Snape :: 199
+Dumbledore :: 462
+Voldemort :: 162
+
+BOOK 5 ::
+___________________________________
+Harry :: 3516
+Ron :: 1147
+Hermione :: 1167
+Hagrid :: 335
+Snape :: 302
+Dumbledore :: 483
+Voldemort :: 142
+
+
+BOOK 6 ::
+___________________________________
+Harry :: 2418
+Ron :: 771
+Hermione :: 592
+Hagrid :: 166
+Snape :: 319
+Dumbledore :: 803
+Voldemort :: 176
+
+BOOK 7 ::
+___________________________________
+Harry :: 2668
+Ron :: 1019
+Hermione :: 1005
+Hagrid :: 127
+Snape :: 238
+Dumbledore :: 423
+Voldemort :: 332
+
+BOOK 8 ::
+___________________________________
+Total number of words are  865436
+Total number of unique words are  36040
+So index of similarity is  0.0416437495089
+Harry :: 15748
+Ron :: 5604
+Hermione :: 4632
+Hagrid :: 1507
+Snape :: 1474
+Dumbledore :: 2562
+Voldemort :: 885

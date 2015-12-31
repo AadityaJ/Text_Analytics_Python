@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Aaditya</title>
+	<link href="http://www.aadityajamuar.net/css/normalize.css" rel="stylesheet">
+	<link href="http://www.aadityajamuar.net/css/bootstrap-theme.css" rel="stylesheet">
+	<link rel="shortcut icon" href="http://www.aadityajamuar.net/logo/favicon.ico">
+	<title></title>
+</head>
+<body>
+<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<header id="hd">
+			<h4>
+			Text Mining and Analytics on Harry Potter Series using Python  
+			</h4></br>
+			<em>
+			Created on 
+			August 8 At 11:00 PM
+			</em>
+			<p align="right">
+				<a href="http://aadityajamuar.net/blog/">
+				Back To The Main Blog Page
+				</a>
+			</header>
+			</div>
+		</div>
+	<article class="postsum">
+	<h4>Introduction</h4>
+	<p>
+	Text analytics describe a set of linguitsic , statistical and machine
+	learning techniques that model and structure the informational content of
+	textual sources for various practical purposes.Detailed analysis of text data 
+	requires understanding of natural language text, which is known to be a 
+	difficult task for computers. However, a number of statistical approaches 
+	have been shown to work well for the "shallow" but robust analysis of 
+	text data for pattern finding and knowledge discovery.</br>
+	<h4>So What have I Done ? </h4>
+	<p>
+	In the summer of 2015 I finally finished reading the last part of Harry Potter Series Again . It ocured to me that I could do some kind of text analysis on it . I would try to do the same thing again with <b>NLTK package</b> from python to analyse how easier it becomes . If you haven't read the books already then please do . I have used the book numbers in all the graphs and results to make it look cleaner . For Understanding which book is which number (duh) click on the <a href="https://en.wikipedia.org/wiki/Harry_Potter">link</a>.
+	For graphs I have used <a href="https://www.plot.ly">plotly</a> which I find is a good way of making interactive graphs for web browsers and is easily integrable with python .
+	</p>
+	<p>
+	Feel free to give me your comments and suggestion via email on the bottom of page. 
+	</p>
+	<h4>Getting and Cleaning Data</h4>
+	<p> The data (i.e) the text obtained is fairly frunished with fonts and other details like 
+	punctuations and Upper case and lower case diffrences.In order to do a complete Statistical Analysis 
+	we will have to convert to lovely lowercase,easy to analyse texts. 
+	<h5>Getting Data</h5>
+	<p>
+	My Data was in word format . To extract them convert them into txt fromat the easy code in on GNU/Linux is</br> <code>system("for f in *.doc; do antiword $f; done")</code></br></br>
+	If your file is in pdf format I would suggest doing </br>
+	<code>system("for f in *.pdf; do pdftotext -enc ASCII7 -nopgbrk $f; done")</code>
+	</br></br>
+	After Doing this You Can simply access by using <code> open </code> command in python</br>
+	</p>
+	<h5>Cleaning Data </h5>
+	<p>
+		As I Said Earlier it is important to make the text free from white spaces , punctuation marks ,
+		and stopwords . Some of these stopwords are like <pre> a about above after again against all am an
+</pre> <a href="http://www.ranks.nl/stopwords">For more click here</a></br>
+		Words like these don't give much information about only mess with the analytics algorithms as they
+		are very frequent.</br>
+	To strip and split text and conversion to lower case and cleaning and writing cleaned text  ::
+	<pre>
+fname="text.txt"
+fh=open(fname)
+fh2=open("text_mod_alp.txt",'w')  
+fh2.seek(0,0)
+## File got 
+## Now conversion to string 
+for line in fh:
+	line=line.rstrip()
+	word=line.split()
+	##module 1 done
+	for item in word:
+		item=item.lower()
+		words = (stopwords)
+		if not item in words:		## not cliqued word
+			if item and item[0].isalpha() and item[len(item)-1].isalpha() :  ## word without any problem
+				print item
+				item=item+' '
+				fh2.write(item)
+			else :
+				if not item[0].isalpha():  ## begins with punctuation
+					print item[1::]
+					item=item+' '
+					fh2.write(item[1::])
+				else :  					## ends with punctuation
+					print item[:len(item)-1:]
+					item=item[:len(item)-1:]
+					item=item+' '
+					fh2.write(item)
+fh.close()
+fh2.close()
+	</pre></p>
+	<h4>Some Types of Analysis</h4>
+	<h5>Unique Words</h5>
+	<p>Kind of like an index of number of <b>"new"</b>words used by the author.</p>
+	<pre>
+for item in word:
+		if item not in count:
+			count[item]=1
+		else :
+			count[item]=count[item]+1
+for key in count:
+	total+=count[key]
+	</pre> 
+An example could be :: 
+	<pre>
+Book 1::
+	Total number of words are :: 61874
+	Total number of unique words are :: 7411
+	Index of Uniqueness is 0.12
+	</pre>
+	<p>
+	Index of Uniqueness is simply the <b>ratio of Number of unique words to Number of overall words</b>
+</br>
+Similarly for Book 2::
+	<pre>
+	Total number of words are :: 68920
+	Total number of unique words are :: 9055
+	Index of similarity is 0.1314
+	</pre>
+	</p>
+	<p>
+		And so on... 
+	</p>
+	<p>Infact its better if I show you the graph depicting of all these indices along x axis beign the book number....(Go ahead and click on <a href="https://plot.ly/~AadityaJ/129/index-of-uniqueness-vs-book-number/">it</a> for more interactive graph )
+	<div>
+    <a href="https://plot.ly/~AadityaJ/188/" target="_blank" title="Similarity Index" style="display: block; text-align: center;"><img src="https://plot.ly/~AadityaJ/188.png" alt="Similarity Index" style="max-width: 100%;width: 869px;"  width="869" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="AadityaJ:188"  src="https://plot.ly/embed.js" async></script>
+	</div>
+	</p>
+	<p>
+	One thing to observe here is the decrease in uniqueness of words from book 2 till 5 which basically may be a result of not introducing much <b>new</b> characters 
+	</p>
+	<h5>Character Talked About</h5>
+	<p>
+	We can also figure out the number of times a character is talked about . So as to get a basic idea of their relative importance with one another as well as as a whole over all the time.The snippet for the same will look something like ::
+	<pre>
+for item in word:
+	if item not in count:
+		count[item]=1
+	else :
+		count[item]=count[item]+1
+	</pre>
+	</p>
+	<p>
+	An example would be <img src="img\image.JPG">
+	</p>
+	<p>
+	The above figure is the histogram for book 1. So it gives you a basic understanding of the characters that are of more importance in the book 1.
+	</p>
+	<p>
+	But why plot graphs for indivisual books only when a better and clearer picture would be available by all the books that are then aranged in order of Books. Something like this <b>::</b> 
+	</p>
+	<div>
+    <a href="https://plot.ly/~AadityaJ/182/" target="_blank" title="Index Of Character" style="display: block; text-align: center;"><img src="https://plot.ly/~AadityaJ/182.png" alt="Index Of Character" style="max-width: 100%;width: 869px;"  width="869" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="AadityaJ:182"  src="https://plot.ly/embed.js" async></script>
+	</div>
+	<p>
+	Here,the index is basically like the realitive number of times a character is talked about.Well I have read the books and so I am not going to give you much spoiler alert if you haven't read it already (which you should), but if you magnify on certain parts of the graph (click on it or <a href="https://plot.ly/~AadityaJ/152/index-of-character-talk/">here</a>,it will open a plotly page then maginfy using icon on right top of page) you would see very clear trends of some major plot shifters.
+	</p>
+	<h5>Most Frequent</h5>
+	<p>
+	Another thing which I can do is to figure out the top 30 most frequent words in one book. This can sort of like give an idea of all the important things talked about in the book.</br>
+	An example of the following maybe <img src="img\wordcloud.png"/>    
+	</p>
+	<p>
+	The following is a wordcloud  that I made from python for book 1 using <a href="https://github.com/amueller/word_cloud">this link</a>.Similar wordcloud can be made for all the other books as well.
+	</p>
+	<h5>Correlation Between Character</h5>
+	<p>
+	Another thing that I later on tried doing was to convert the orignal text into various statements.Through this I tried to find probability of finding two of these characters in the same sentence.Although I get the fact that the serious use of pronouns will disturb my algorithm of the given but hey if all the characters have about realtively equal pronoun usage <sub>relative because Harry will obviously from earlier obseravtions have the most.</sub> Then It can be used as an effective way to find how close knit the relationship between these two characters are . For example for book 1 ::    
+	</p>
+	<pre>
+	cr of Harry and Hermione is 0.89
+	cr of Harry and Ron is 2.615
+	cr of Ron and Hermione is 3.06
+	</pre>
+	<p>
+	Here cr is the <b>corelation index that I made </b>. So we get the fact that Ron And Hermione are more closely knitted in the conversation part of the book.</br>
+	Although I am still working on trying to find the best way to plot this to give a better sense of understanding on as to what is happening.I will keep you updated.
+	</p>
+	</article>
+	<div class="row">
+			<div class="col-md-12">
+			 	<footer id="ft">
+			 	For any suggestion or comments feel free to contact me ::
+			 	<b>aaditya.jamuar [at] learner.manipal.edu
+			 	</footer>
+			 </div>
+		</div>
+	<div class="row">
+			<div class="col-md-12">
+			 	<footer id="ft">
+			 	Created By AADITYA |
+			 	</footer>
+			 </div>
+		</div>
+	</div>
+</body>
+</html>

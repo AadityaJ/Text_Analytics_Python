@@ -1,0 +1,26 @@
+BOOK 1::
+__________________________________
+1)harry 2)ron 3)out 4)hagrid 5) hermione 6)about7)into 8)professor9)snape
+10)dumbledore
+BOOK 2::
+___________________________________
+1)harry 2)ron 3)said 4)his 5)it 6)you 7)i 8)at 9)had 10)ron 
+
+BOOK 3::
+_________________________________
+1)harry 2)was 3)his 4)said 5)it 6)you 7)i 8)had 9)at 10)ron
+
+BOOK 4::
+1)harry 2)was 3)said 4)his 5)it 6)you 7)at 8)i 9)as 10)with
+
+BOOK 5::
+__________________________________
+1)said 2)was 3)harry 4)his 5)you 6)it 7)i 8)had 9)at 10)as
+
+BOOK 6::
+__________________________________
+1)said 2)harry 3)was 4)his 5)i 6)you 7)it 8)had 9)at 10)as
+
+BOOK 7::
+__________________________________
+1)was 2)harry 3)it 4)had 5)you 6)said 7)i 8)as 9)at 10)but

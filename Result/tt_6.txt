@@ -1,0 +1,200 @@
+'voice'
+195
+ 'dark'
+197
+ 'well'
+200
+ 'hand'
+203
+ 'only'
+204
+ 'after'
+205
+ 'ginny'
+205
+ 'seemed'
+205
+ 'eyes'
+206
+ 'look'
+211
+ 'get'
+212
+ 'i\x92m'
+212
+ 'and'
+218
+ 'little'
+219
+ 'face'
+220
+ 'can'
+223
+ 'asked'
+224
+ 'professor'
+224
+ 'looking'
+230
+ 'before'
+232
+ 'will'
+232
+ 'once'
+235
+ 'off'
+236
+ 'which'
+238
+ 'room'
+242
+ 'than'
+242
+ 'thought'
+244
+ 'it\x92s'
+256
+ 'again'
+259
+ 'still'
+260
+ 'how'
+272
+ 'got'
+274
+ 'time'
+289
+ 'down'
+291
+ 'though'
+291
+ 'my'
+295
+ 'around'
+296
+ 'see'
+296
+ 'malfoy'
+302
+ 'their'
+306
+ 'more'
+316
+ 'snape'
+319
+ 'don\x92t'
+322
+ 'slughorn'
+324
+ 'think'
+326
+ 'very'
+326
+ 'know'
+329
+ 'are'
+330
+ 'looked'
+333
+ 'no'
+339
+ 'then'
+342
+ 'like'
+349
+ 'about'
+358
+ 'over'
+370
+ 'if'
+371
+ 'now'
+374
+ 'one'
+375
+ 'just'
+380
+ 'your'
+385
+ 'when'
+388
+ 'do'
+391
+ 'by'
+392
+ 'back'
+406
+ 'him'
+408
+ 'me'
+430
+ 'did'
+434
+ 'would'
+445
+ 'an'
+446
+ 'could'
+470
+ 'so'
+510
+ 'who'
+511
+ 'into'
+517
+ 'there'
+536
+ 'up'
+539
+ 'been'
+544
+ 'from'
+551
+ 'this'
+566
+ 'were'
+579
+ 'hermione'
+592
+ 'out'
+615
+ 'what'
+646
+ 'they'
+651
+ 'be'
+759
+ 'ron'
+771
+ 'she'
+772
+ 'have'
+794
+ 'dumbledore'
+803
+ '\x94'
+935
+ 'with'
+1065
+ 'but'
+1103
+ 'as'
+1232
+ 'at'
+1302
+ 'had'
+1650
+ 'it'
+1747
+ 'you'
+2074
+ 'i'
+2152
+ 'his'
+2232
+ 'was'
+2368
+ 'harry'
+2418
+ 'said'
+2435

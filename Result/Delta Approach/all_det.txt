@@ -1,0 +1,33 @@
+BOOK 1 ::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 5086
+
+BOOK 2::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 5543
+
+BOOK 3::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 7160
+
+BOOK 4::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 12862
+
+BOOK 5::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 16716
+
+BOOK 6::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 11120
+
+
+BOOK 7::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 12846
+
+
+BOOK 8::
+_______________________________
+TOTAL NUMBER OF ALLITERATION POINTS :: 71334

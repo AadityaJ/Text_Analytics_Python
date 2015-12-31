@@ -1,0 +1,19 @@
+Heading->Text Minning And Analytics on Harry Potter Series Using Pyhton
+-->Text analytics describe a set of linguitsic , statistical and machine
+learning techniques that model and structure the informational content of
+textual sources for various practical purposes.Detailed analysis of text data 
+requires understanding of natural language text, which is known to be a 
+difficult task for computers. However, a number of statistical approaches 
+have been shown to work well for the "shallow" but robust analysis of 
+text data for pattern finding and knowledge discovery.
+*** extracting reality form data
+
+-->## what i have done 
+=============================================
+-->Coding part :: 
+
+1)getting and cleaning data :: done 
+2)nt::DONE
+3)ctalk:: done
+4)most freq
+5)insane correaltion

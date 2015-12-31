@@ -1,0 +1,63 @@
+BOOK 1 ::
+________________________________________
+words with 'ly' ::1026
+words with 'ing' :: 2747
+words with 'ed' :: 3663
+use of '!' :: 332
+use of '?' :: 528
+
+BOOK 2 ::
+_______________________________________
+words with 'ly' :: 1617
+words with 'ing' :: 3619
+words with 'ed'::4321
+use of '!' :: 392
+use of '?' :: 533
+
+BOOK 3 ::
+_______________________________________
+words with 'ly' :: 1997
+words with 'ing' :: 4308
+words with 'ed'::5431
+use of '!' :: 799
+use of '?' :: 771
+
+BOOK 4 ::
+_______________________________________
+words with 'ly' :: 3622
+words with 'ing' :: 7865
+words with 'ed':: 9550
+use of '!' :: 1097
+use of '?' :: 1351
+
+BOOK 5 ::
+_______________________________________
+words with 'ly' :: 5432
+words with 'ing' :: 10885
+words with 'ed':: 12923
+use of '!' :: 1272
+use of '?' :: 2026
+
+BOOK 6 ::
+_______________________________________
+words with 'ly' :: 3268
+words with 'ing' :: 6497
+words with 'ed':: 8644
+use of '!' :: 833
+use of '?' :: 1255
+
+BOOK 7 ::
+_______________________________________
+words with 'ly' :: 2834
+words with 'ing' :: 6931
+words with 'ed':: 11163
+use of '!' :: 1124
+use of '?' :: 1466
+
+BOOK 8 ::
+_______________________________________
+words with 'ly' :: 19796
+words with 'ing' :: 42924
+use of '!' :: 5849
+use of '?':: 7930
+words with 'ed' :: 55695

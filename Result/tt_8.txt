@@ -1,0 +1,200 @@
+'door'
+1279
+ 'can'
+1281
+ 'go'
+1287
+ 'come'
+1292
+ 'head'
+1293
+ 'where'
+1305
+ 'i\x92m'
+1317
+ 'room'
+1324
+ 'look'
+1332
+ 'didn\x92t'
+1333
+ 'will'
+1334
+ 'only'
+1340
+ 'before'
+1393
+ 'than'
+1398
+ 'going'
+1409
+ 'weasley'
+1414
+ 'harry\x92s'
+1454
+ 'voice'
+1454
+ 'which'
+1472
+ 'snape'
+1474
+ 'them'
+1483
+ 'face'
+1506
+ 'hagrid'
+1507
+ 'through'
+1552
+ 'looking'
+1560
+ 'wand'
+1561
+ 'time'
+1577
+ 'eyes'
+1605
+ 'think'
+1680
+ 'still'
+1694
+ 'get'
+1696
+ 'it\x92s'
+1709
+ 'how'
+1734
+ 'though'
+1734
+ 'off'
+1784
+ 'again'
+1795
+ 'don\x92t'
+1819
+ 'professor'
+1826
+ 'see'
+1839
+ 'more'
+1892
+ 'my'
+1970
+ 'are'
+1974
+ 'know'
+2035
+ 'got'
+2056
+ 'no'
+2074
+ 'very'
+2076
+ 'your'
+2138
+ 'do'
+2142
+ 'did'
+2195
+ 'around'
+2230
+ 'by'
+2246
+ 'would'
+2253
+ 'down'
+2267
+ 'just'
+2310
+ 'when'
+2325
+ 'now'
+2326
+ 'like'
+2338
+ 'looked'
+2354
+ 'me'
+2357
+ 'then'
+2384
+ 'over'
+2390
+ 'about'
+2429
+ 'one'
+2429
+ 'dumbledore'
+2562
+ 'their'
+2594
+ 'an'
+2626
+ 'if'
+2670
+ 'him'
+2804
+ 'could'
+2807
+ 'who'
+2807
+ 'so'
+2988
+ 'this'
+3061
+ 'back'
+3103
+ 'there'
+3170
+ 'been'
+3237
+ 'into'
+3433
+ 'what'
+3966
+ 'from'
+4116
+ 'have'
+4141
+ 'up'
+4160
+ 'were'
+4247
+ 'out'
+4254
+ 'be'
+4417
+ 'hermione'
+4632
+ 'she'
+4749
+ '\x94'
+5238
+ 'ron'
+5604
+ 'they'
+5851
+ 'but'
+6173
+ 'with'
+6468
+ 'as'
+7599
+ 'at'
+8692
+ 'had'
+10148
+ 'i'
+10319
+ 'you'
+11296
+ 'it'
+11752
+ 'his'
+14274
+ 'said'
+14424
+ 'was'
+15576
+ 'harry'
+15748

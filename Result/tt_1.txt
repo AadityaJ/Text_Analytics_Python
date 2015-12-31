@@ -1,0 +1,200 @@
+'thought'
+96
+ 'two'
+96
+ 'where'
+97
+ 'looking'
+98
+ 'right'
+98
+ 'head'
+99
+ 'vernon'
+99
+ '\x94'
+100
+ 'did'
+101
+ 'before'
+102
+ 'malfoy'
+103
+ 'door'
+104
+ 'eyes'
+104
+ 'couldn\x92t'
+105
+ 'even'
+105
+ 'first'
+106
+ 'my'
+107
+ 'would'
+108
+ 'more'
+109
+ 'only'
+109
+ 'dudley'
+111
+ 'harry\x92s'
+113
+ 'time'
+114
+ 'look'
+115
+ 'something'
+115
+ 'them'
+117
+ 'go'
+118
+ 'think'
+121
+ 'uncle'
+121
+ 'i\x92m'
+122
+ 'never'
+124
+ 'through'
+125
+ 'dumbledore'
+129
+ 'now'
+131
+ 'going'
+132
+ 'how'
+133
+ 'he\x92d'
+137
+ 'snape'
+137
+ 'around'
+140
+ 'don\x92t'
+143
+ 'your'
+148
+ 'by'
+150
+ 'are'
+152
+ 'it\x92s'
+152
+ 'then'
+153
+ 'do'
+156
+ 'who'
+157
+ 'no'
+162
+ 'looked'
+169
+ 'over'
+169
+ 'see'
+169
+ 'know'
+171
+ 'very'
+171
+ 'down'
+173
+ 'professor'
+174
+ 'me'
+176
+ 'when'
+177
+ 'just'
+180
+ 'like'
+190
+ 'him'
+191
+ 'could'
+193
+ 'get'
+194
+ 'didn\x92t'
+195
+ 'off'
+197
+ 'got'
+198
+ 'been'
+209
+ 'an'
+210
+ 'their'
+217
+ 'into'
+219
+ 'about'
+220
+ 'she'
+229
+ 'so'
+230
+ 'this'
+235
+ 'from'
+240
+ 'one'
+242
+ 'if'
+244
+ 'hermione'
+245
+ 'there'
+245
+ 'back'
+248
+ 'have'
+294
+ 'were'
+306
+ 'hagrid'
+309
+ 'what'
+323
+ 'up'
+347
+ 'out'
+357
+ 'be'
+361
+ 'ron'
+400
+ 'with'
+415
+ 'but'
+483
+ 'as'
+526
+ 'they'
+590
+ 'at'
+625
+ 'i'
+646
+ 'had'
+701
+ 'you'
+788
+ 'said'
+794
+ 'his'
+936
+ 'it'
+951
+ 'harry'
+1175
+ 'was'
+1185

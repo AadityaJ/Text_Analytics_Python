@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=dp1u6c4VsEU installing nltk
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#nltk   //Installing NLTK 

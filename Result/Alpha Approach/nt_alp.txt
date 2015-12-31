@@ -1,0 +1,32 @@
+BOOK 1:
+Total number of words are :: 61874
+Total number of unique words are :: 7411
+Index of similarity is 0.12
+BOOK 2:
+Total number of words are :: 68920
+Total number of unique words are :: 9055
+Index of similarity is 0.1314
+BOOK 3:
+Total number of words are :: 86996
+Total number of unique words are :: 10069
+Index of similarity is 0.1157
+BOOK 4:
+Total number of words are :: 152366
+Total number of unique words are :: 14197
+Index of similarity is 0.093
+BOOK 5:
+Total number of words are :: 205324
+Total number of unique words are :: 17289
+Index of similarity is 0.084
+BOOK 6:
+Total number of words are :: 135447
+Total number of unique words are :: 14198
+Index of similarity is 0.105
+BOOK 7:
+Total number of words are :: 154252
+Total number of unique words are :: 15021
+Index of similarity is 0.09
+BOOK 8:
+Total number of words are  865436
+Total number of unique words are  36040
+So index of similarity is  0.0416437495089

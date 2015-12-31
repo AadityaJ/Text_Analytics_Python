@@ -1,0 +1,19 @@
+##precoding -->
+	1.-setting up wd
+	2.-setting up and intiating documentation
+1##--> __getting file and tokenizing__
+	1.-get text file in fh
+	2.-create file into string (#use for loop) (into lines)
+	3.-strip and split lines
+//Input tokenized and ready for cleaning
+2##-->__cleaning data__
+	1.cleaning(to be kept in mind)::
+		1.-lower case
+		2.-remove numbers
+		3.-remove punctuations
+		4.-remove special characters if any
+		5.-remove blank spaces
+		6.-remove regular common word
+	 2.-save data in new text file
+// data is cleaned and now saved in a new text file (to be used as a cache)
+3##-->__sorting dictionary__

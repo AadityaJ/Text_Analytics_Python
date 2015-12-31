@@ -1,0 +1,42 @@
+> Set up a READ.md
+>-make a proper algorithm concerning the analtyics
+>-start with the basic cleaning and counting procedure
+	* change apostrophies 
+	* delete 'a'
+>-counting the key in order of frequencies
+> index of repetition : 1)no of rep words / total number of words
+			2)create separate entries for diff alphabets
+> *pointers:
+	1)-No need to see the least used words as they are invariably 
+	  arranged in lexical order
+	2)-Divide the data into 2 parts :
+		(alpha)one to remain totally cleaned and (delta)other removed of all "non-words"words
+>-other ideas and scopes :
+	1)top ten words (alp)
+	2)alliterations check
+	3)Figure of speeches
+	4)emotion index
+	5)Talk about characters
+		->To improve the predictiblity on that
+	6) check "-ly" words
+	7) Alphabet frequency 
+>-change the text to harry potter(all)
+>-Package and write the flowchart in a better manner
+>-plot all hists 
+>implore results for all books and graphs similarly::
+		all results to be compressed in one docx file
+>character emotions 
+>wordcloud
+
+
+
+
+===================================================================
+
+
+===================================================================
+
+-> run the code for a book 8 which is basically the cumulative of all 
+  indivisual books
+>change tt_alp to top thirty taking in the first 30 most frequent words
+ and run it for all 
